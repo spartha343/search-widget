@@ -1,0 +1,31 @@
+/* Modal styles */
+
+.passenger-controls {
+  display: flex;
+  align-items: center;
+}
+
+.passenger-controls button {
+  background-color: var(--secondColor);
+  color: var(--thirdColor);
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.passenger-controls button:hover {
+  background-color: #024daf;
+}
+
+.passenger-controls span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Hide modal by default */
+.hidden {
+  display: none;
+}
